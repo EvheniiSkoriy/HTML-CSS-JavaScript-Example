@@ -1,0 +1,158 @@
+
+<HTML>
+  <HEAD> 
+
+    <TITLE>
+	A sample HTML document
+    </TITLE>
+
+    <link rel="stylesheet" type="text/css" href="hel.css">
+    <STYLE>
+       p1 {
+           background-color: yellow;
+           border-style: solid;
+           border-width: medium;
+           border-color: blue;
+           border-radius: 5px;
+           margin: 55px 70px 55px;
+           font-family: "Times New Roman", Times, serif;
+           font-style: italic;
+           font-size: 40px;
+       }
+       p2 {
+           background-color: orange;
+           border-style: dotted solid;
+           border-width: medium;
+           border-color: blue;         
+           margin: auto;
+           padding: 5px;
+           width: 40px;
+           box-sizing: border-box;
+       }
+       div {
+           height: 100px;
+           width: 20%;
+           background-color: red;
+           outline-style: inset;
+           outline-color: green;
+           outline-offset: 5px;
+           display:none;
+       }
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+ol.c {
+    list-style-type: upper-roman;
+}
+ul.b {
+    list-style-type: square;
+    list-style-position: inside;
+}
+table, td, th {
+    border: 2px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 20%;
+    text-align: center;
+}
+
+th {
+    height: 50px;
+}
+    </STYLE>
+
+    <script>
+    function Visible(){
+        document.getElementById('demo').style.display='block';
+        }
+    </script>
+    <script>
+    var car = {type:"Fiat", 
+               model:"500", 
+               color:"white"
+    };//object
+    var person = {
+               firstName: "John",
+               lastName : "Doe",
+               id       : 5566,
+               fullName : function() {
+                   return this.firstName + " " + this.lastName;
+    }
+    </script>
+
+    <script src="ScriptShadow.js"> 
+    </script>
+
+  </HEAD>
+
+  <BODY>
+    <H1>
+    Example html, with CSS style, function JavaScript
+    </H1>
+
+    <P1>
+    Lorem ipsum...asdasdasdasdasdasdasdsads
+    </P1>
+
+     <h2>
+     </h2>
+
+     <P2>
+    YEAAAAAAAAAAAAAAA
+    </P2>
+
+    <div id="demo">
+    </div>
+
+   
+
+    <button type="button"
+     onclick="Visible()"> Come on
+    </button>
+
+     <button type="button"
+     onclick="Shadow()"> Invisible
+    </button>
+
+      <a href="http://www.yahoo.com">This is a link</a>
+      <p>Example of unordered lists:</p>
+      <ul class="b">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Coca Cola</li>
+      </ul>
+      <p>Example of ordered lists:</p>
+      <ol class="c">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Coca Cola</li>
+      </ol>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+</table>
+  </BODY>
+</HTML>
